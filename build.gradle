@@ -91,6 +91,7 @@ dependencies {
         compile "org.apereo.cas:cas-server-webapp${project.appServer}:${casServerVersion}"
     }
     // Other dependencies may be listed here...
+    compile "org.apereo.cas:cas-server-support-ldap:${project.'cas.version'}"
 }
 
 jib {
